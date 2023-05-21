@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>To-Do List</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="container">
+       <div id="nav">
+          <h1>
+             ToDo List
+          </h1>
+          <button id="submit-btn" class="btns"><span class="material-symbols-outlined">
+add
+</span></button>
+          
+       </div>
+       <div id="list">
+          <div id="inner-list">
+<!--              <div id="goal-bar">
+                <div id="goal">
+                   <h2>
+                      learn java
+                   </h2>
+                   <p>
+                      <span id="date-sign"class="material-symbols-outlined">
+calendar_month
+</span> <span>5/2/2023</span>
+                   </p>
+                   
+                </div>
+                <div id="inner-btns">
+                   <button class="btns">
+<span class="material-symbols-outlined">
+done
+</span></button>
+                  <button class="btns">
+<span class="material-symbols-outlined">
+delete
+</span></button>
+                  <button class="btns">
+<span class="material-symbols-outlined">
+edit
+</span></button>
+                </div>
+             </div> -->
+          </div>
+         
+       <!--👇 task status 👇 -->
+         
+          <div id="task-status">
+      <div id="tasks-num">
+        <p>
+           Tasks:<span id="tasks-count">0</span>
+        </p> 
+      </div>
+      <div id="done-tasks-num">
+         <p>
+            Completed:<span id="tasks-done">0</span>
+         </p>
+         
+      </div> 
+    </div>
+      <!--👆 task status 👆-->
+       </div>
+       
+    </div>  
+  </div>
+  
+<script src="script.js"></script>
+</body>
+
+</html>
